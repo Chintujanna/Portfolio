@@ -1,0 +1,56 @@
+
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.section {
+    padding: 20px 0;
+    text-align: center;
+}
+h1, h2, h3 {
+    margin-bottom: 20px;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background: #333;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn:hover {
+    background: #555;
+}
+/* Home Section */
+#home {
+    background: linear-gradient(to right, #1f4037, #99f2c8);
+    color: white;
+    padding: 60px 0;
+}
+/* Gallery Grid */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
+.gallery-grid img, .gallery-grid video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
